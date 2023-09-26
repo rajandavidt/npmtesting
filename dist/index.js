@@ -1,15 +1,13 @@
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+"use strict";
 
-var React = _interopDefault(require('react'));
-
-var styles = {"test":"_3ybTi"};
-
-var ExampleComponent = function ExampleComponent(_ref) {
-  var text = _ref.text;
-  return /*#__PURE__*/React.createElement("div", {
-    className: styles.test
-  }, "Example Component: ", text);
-};
-
-exports.ExampleComponent = ExampleComponent;
-//# sourceMappingURL=index.js.map
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "HelloWorld", {
+  enumerable: true,
+  get: function get() {
+    return _HelloWorld["default"];
+  }
+});
+var _HelloWorld = _interopRequireDefault(require("./components/HelloWorld"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
